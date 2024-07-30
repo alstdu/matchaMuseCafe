@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'BelgiumCatherine';
+    src: url('../fonts/BelgiumCatherine.ttf') format('truetype'),
+         url('../fonts/BelgiumCatherine.otf') format('opentype');
+}
+.matcha-font {
+    font-family: 'BelgiumCatherine', sans-serif;
+    font-weight: normal;
+}
+.mulish-font {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    padding: 2em;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin: 1.5em;
+    letter-spacing: 5px;
+}
+.logo img {
+    height: 6em;
+    width: 8em;
+}
+.background-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.background-container::before,
+.background-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.background-container::before {
+    background: url('../assets/matchacake.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1;
+}
+.background-container::after {
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgb(255, 255, 255, 1));
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    margin-top: 5em;
+}
+.header-image{
+    height: 10em;
+    width: 100%;
+}
