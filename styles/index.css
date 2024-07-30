@@ -13,6 +13,11 @@
     font-weight: 400;
     font-style: normal;
 }
+.header-underline {
+    display: inline-block;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    margin-bottom: 2em;
+}
 body, html {
     margin: 0;
     padding: 0;
@@ -73,9 +78,34 @@ nav ul li {
     position: relative;
     z-index: 2;
     padding: 20px;
-    margin-top: 5em;
+    margin-top: 6em;
+    margin-bottom: 5em;
 }
 .header-image{
     height: 10em;
     width: 100%;
+}
+.visit-us{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.visit-us-text{
+    margin-left: 2em;
+    padding: 8em;
+    width: 50%
+}
+.visit-us-text h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+}
+.visit-us-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.matcha-cup{
+    width: 550px;
+    margin-right: 2em;
 }
