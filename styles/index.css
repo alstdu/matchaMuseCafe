@@ -18,7 +18,7 @@
     border-bottom: 1px solid rgb(58, 58, 58);
     margin-bottom: 2em;
 }
-body, html {
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -49,6 +49,7 @@ nav ul li {
 .background-container {
     position: relative;
     height: 100vh;
+    width: 100%;
     overflow: hidden;
 }
 .background-container::before,
@@ -92,7 +93,7 @@ nav ul li {
 }
 .visit-us-text{
     margin-left: 2em;
-    padding: 8em;
+    padding: 4em;
     width: 50%
 }
 .visit-us-text h2 {
@@ -106,7 +107,7 @@ nav ul li {
     justify-content: center;
 }
 .matcha-cup{
-    width: 550px;
+    max-width: 34em;
     margin-right: 2em;
 }
 .icon-grid{
@@ -121,16 +122,21 @@ nav ul li {
 .col-one p, .col-two p {
     margin: 2.5em;
 }
+.locally-sourced, .vegan-options, .organic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .menu-bar {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     background-color: #F2D9DB;
-    padding-left: 6em;
-    padding-right: 6em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    background-image: url(../assets/pinkbannerdesign.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em 6em;
     margin-top: 5em;
     margin-bottom: 8em;
 }
@@ -149,10 +155,28 @@ nav ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
     max-width: 100%;
+    background-color: #262626;
+    padding: 2em;
+    margin-bottom: 8em;
 }
 .image-gallery img {
-    height: 500px;
-    width: 400px;
+    height: auto;
+    max-width: 18em;
     margin: 0 1em;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: #262626;
+}
+
+@media (max-width: 855px) {
+    .your-class {
+        /* Example CSS properties */
+        background-color: lightblue;
+    }}
