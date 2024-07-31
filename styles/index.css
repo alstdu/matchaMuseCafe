@@ -172,7 +172,18 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: #262626;
+    align-items: center;
+    border-top: .5px solid #acabab;
+    margin: 0 2em;
+    padding: 1em;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3;
 }
 .footer-map {
     max-width: 50%;
@@ -206,7 +217,7 @@ footer {
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     .image-gallery img {
         max-width: 12em;
     }
