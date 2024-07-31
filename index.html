@@ -7,20 +7,28 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/hamburger.css">
     <title>MatchaMuse Cafe</title>
 </head>
 <body class="mulish-font">
     <div class="background-container">
-        <nav>
+        <header>
             <div class="logo">
                 <img src="./assets/logo.png">
             </div>
-            <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <div class="bun top"></div>
+                <div class="patty"></div>
+                <div class="bun bottom"></div>
+            </div>
+        </header>
         <div class="header-content">
             <div role="heading" aria-level="1">
                 <img class="header-image" src="./assets/logo.png" alt="Matcha Muse Cafe" role="img"
@@ -85,5 +93,16 @@
             <p>Find a location near you with our interactive map.</p>
         </div>
     </footer>
+    <div class="navigation-overlay" style="display: none;"></div>
+    <div class="navigation-sidebar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <script src="./scripts/hamburger.js"></script>
 </body>
 </html>

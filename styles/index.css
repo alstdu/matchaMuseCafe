@@ -3,6 +3,9 @@
     src: url('../fonts/BelgiumCatherine.ttf') format('truetype'),
          url('../fonts/BelgiumCatherine.otf') format('opentype');
 }
+* {
+    box-sizing: border-box;
+}
 .matcha-font {
     font-family: 'BelgiumCatherine', sans-serif;
     font-weight: normal;
@@ -23,7 +26,7 @@ body {
     padding: 0;
     height: 100%;
 }
-nav {
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,12 +38,24 @@ nav {
     z-index: 2;
     padding: 2em;
 }
-nav ul {
+header nav ul {
     display: flex;
 }
-nav ul li {
+header ul li {
     margin: 1.5em;
     letter-spacing: 5px;
+}
+.navigation-sidebar {
+    border-right: 2px solid hsla(0, 2%, 20%, 0.3);
+    box-shadow: 0.5em 0 4em hsla(0, 2%, 10%, 0.2), inset 0.5em 0 4em hsla(0, 2%, 10%, 0.2);
+}
+.navigation-sidebar ul li {
+    margin: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: larger;
+    padding-left: 1em;
+    border-left: 2px solid hsl(0, 2%, 20%);
 }
 .logo img {
     height: 6em;
