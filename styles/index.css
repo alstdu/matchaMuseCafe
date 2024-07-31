@@ -176,7 +176,10 @@ footer {
 }
 
 @media (max-width: 855px) {
-    .your-class {
-        /* Example CSS properties */
-        background-color: lightblue;
-    }}
+        .visit-us{
+            flex-direction: column;
+        }
+        .matcha-cup {
+            margin: 0;
+        }
+    }
