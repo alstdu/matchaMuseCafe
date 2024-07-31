@@ -111,17 +111,16 @@ nav ul li {
     margin-right: 2em;
 }
 .icon-grid{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 5em;
 }
-.icon-grid .col-one .col-two {
-    display: flex;
-    flex: 1;
-}
-.col-one p, .col-two p {
-    margin: 2.5em;
+.grid-icon {
+    text-align: center;
 }
 .locally-sourced, .vegan-options, .organic {
     display: flex;
@@ -207,12 +206,6 @@ footer {
     .matcha-cup {
         margin: 0;
         max-width: 20em;
-    }
-    .icon-grid {
-        flex-wrap: wrap;
-    }
-    .col-one, .col-two {
-        align-items: flex-end;
     }
 }
 
