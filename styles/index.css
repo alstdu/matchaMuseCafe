@@ -162,6 +162,10 @@ header ul li {
     color: white;
     letter-spacing: 3px;
 }
+.margin-container{
+    margin: 2em;
+}
+
 .image-gallery{
     display: flex;
     flex-direction: row;
@@ -169,8 +173,7 @@ header ul li {
     align-items: center;
     flex-wrap: wrap;
     max-width: 100%;
-    background-color: #262626;
-    padding: 2em;
+    padding: 20px;
     margin-bottom: 8em;
 }
 .image-gallery img {
