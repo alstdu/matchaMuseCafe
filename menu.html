@@ -27,48 +27,70 @@
                 <div class="bun bottom"></div>
             </div>
         </header>
+        <!-- add some kind of universal margin to main -->
         <main>
             <section id="menuSelect">
-                <a class="menu-select-button" href="">Beverages</a>
-                <a class="menu-select-button" href="">Dessert</a>
+                <section class="filters-container">
+                    <!-- filter tabs -->
+                    <ul class="filters-content">
+                        <button class="filters-button" data-target="#beverages"><p class="filters-underline">Beverages</p></button>
+                        <button class="filters-button" data-target="#desserts"><p class="filters-underline">Desserts</p></button>
+                    </ul>
+                    <div class="filters-sections">
+                        <!-- beverages -->
+                        <div class="beverages-content" data-content id="beverages">
+                            <div class="menu-title">
+                                <h2>Hot or cold drinks</h2>
+                            </div>
+                            <div class="menu-contents">
+                                <img alt="placeholder">
+                                <div class="menu-section1">
+                                    <div class="menu-item">
+                                        <h3>Cake Rolls</h3>
+                                        <p>Light and fluffy cake rolled with a creamy filling.</p>
+                                        <p class="price">$6.99</p>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3>Cake Rolls</h3>
+                                        <p>Light and fluffy cake rolled with a creamy filling.</p>
+                                        <p class="price">$6.99</p>
+                                    </div>
+                                        <div class="menu-item">
+                                            <h3>Cake Rolls</h3>
+                                            <p>Light and fluffy cake rolled with a creamy filling.</p>
+                                            <p class="price">$6.99</p>
+                                        </div>
+                                </div>
+                                <div class="menu-section2">
+                                    <div class="menu-item">
+                                        <h3>Cake Rolls</h3>
+                                        <p>Light and fluffy cake rolled with a creamy filling.</p>
+                                        <p class="price">$6.99</p>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3>Cake Rolls</h3>
+                                        <p>Light and fluffy cake rolled with a creamy filling.</p>
+                                        <p class="price">$6.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- <div class="projects-content grid gap-6" data-content id="desserts">
+                                <article class="project-card relative rounded-3xl">
+                                    <img src="../assets/dndtoolspreview.png" alt="" class="project-img w-full h-full rounded-3xl">
+                                    <div class="project-modal grid absolute w-full h-full bottom-0 left-0 items-end overflow-hidden p-2.5 duration-75">
+                                        <div class="m-2 max-w-max bg-white/25 rounded-md p-3 bg-blur">
+                                            <span class="projects-subtitle">HTML, CSS, JS Plugins</span>
+                                            <h3 class="projects-title text-h3 font-bold mb-2">D&D Tools</h3>
+                                            <a href="" class="projects-button filters-button rounded-md bg-grey-light px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md"><i class="fa-solid fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div> -->
+                        </div>
+                    </div>
+                </section>
             </section>
-            <section class="menu">
-                <h1>Our Menu</h1>
-                <div class="menu-item">
-                    <h2>Dessert</h2>
-                    <h3>Cake Rolls</h3>
-                    <p>Light and fluffy cake rolled with a creamy filling.</p>
-                    <p class="price">$6.99</p>
-                    <h3>Mochi</h3>
-                    <p>Chewy rice cake filled with sweet bean paste or ice cream.</p>
-                    <p class="price">$4.99</p>
-                    <h3>Matcha Pancakes</h3>
-                    <p> Fluffy matcha infused pancakes served with powdered sugar and a scoop of vanilla ice cream.</p>
-                    <p class="price">$8.99</p>
-                </div>
-                <div class="menu-item">
-                    <h2>Drinks - Cold</h2>
-                    <h3>Matcha Milkshake</h3>
-                    <p>Creamy milkshake made with matcha and vanilla ice cream.</p>
-                    <p class="price">$9.99</p>
-                    <h3>Matcha Smoothie</h3>
-                    <p>Refreshing smoothie with matcha and almond milk. Your choice of banana, strawberry or blueberry</p>
-                    <p class="price">$10.99</p>
-                </div>
-                <div class="menu-item">
-                    <h2>Drinks - Hot &amp; Cold</h2>
-                    <h3>Matcha Latte</h3>
-                    <p>Smooth and creamy latte made with premium matcha powder.</p>
-                    <p class="price">$6.99</p>
-                    <h3>Matcha Tea</h3>
-                    <p>Traditional matcha tea with a vibrant green color and rich taste.</p>
-                    <p class="price">$3.99</p>
-                    <h3>Vanilla Matcha</h3>
-                    <p>Matcha latte blended with a hint of vanilla.</p>
-                    <p class="price">$6.99</p>
-                </div>
-            </section>
-        </main>
         <footer id="footer">
             <div class="footer-nav">
                 <div class="logo">
