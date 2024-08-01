@@ -163,7 +163,7 @@ header ul li {
     letter-spacing: 3px;
 }
 .margin-container{
-    margin: 2em;
+    margin: 10em;
 }
 
 .image-gallery{
@@ -187,7 +187,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     border-top: .5px solid #acabab;
-    margin: 0 2em;
     padding: 1em;
 }
 .footer-nav{
@@ -199,8 +198,13 @@ footer {
     line-height: 3;
 }
 .footer-map {
-    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 50%;
 }
+
 
 @media (max-width: 855px) {
         .visit-us{
@@ -209,6 +213,9 @@ footer {
         .matcha-cup {
             margin: 0;
         }
+        .margin-container{
+            margin: 5em;
+        }    
     }
 
 @media (max-width: 620px) {
@@ -217,10 +224,20 @@ footer {
         align-items: center;
         justify-content: center;
     }
+    .footer-nav {
+        text-align: center;
+        margin-bottom: 5em;
+    }
+    .footer-map {
+        width: 100%;
+    }
     .matcha-cup {
         margin: 0;
         max-width: 20em;
     }
+    .margin-container{
+        margin: 3em;
+    }    
 }
 
 
