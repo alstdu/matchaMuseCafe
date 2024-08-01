@@ -1,4 +1,8 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     position: relative;
     padding: 20px;
@@ -41,5 +45,5 @@ h3 {
 }
 
 .background-container {
-    overflow: scroll;
+    overflow: hidden;
 }
