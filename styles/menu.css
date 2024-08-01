@@ -1,0 +1,45 @@
+
+main {
+    position: relative;
+    padding: 20px;
+    z-index: 2;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.menu h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.menu-item h2 {
+    margin: 0;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    margin-bottom: 1em;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+h3 {
+    font-weight: bold;
+}
+
+.background-container {
+    overflow: scroll;
+}
