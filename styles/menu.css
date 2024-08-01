@@ -7,6 +7,7 @@ main {
     position: relative;
     padding: 20px;
     z-index: 2;
+    margin: 0 10em;
 }
 
 .menu {
@@ -14,8 +15,14 @@ main {
     margin: 0 auto;
 }
 
+.menu-contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
 .menu-item {
-    border-bottom: 1px solid #ddd;
     padding: 10px 0;
 }
 
@@ -46,4 +53,23 @@ h3 {
 
 .background-container {
     overflow: hidden;
+}
+.filters-content {
+    margin: 5em 0;
+}
+
+.filters-button {
+    padding: 1em 4em;
+    border-radius: 10px;
+    background-color: #262626;
+    color: white;
+}
+
+.filters-underline {
+    display: inline-block;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.beverages-content {
+    border-bottom: 1px solid #ddd;
 }
