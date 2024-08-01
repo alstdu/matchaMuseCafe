@@ -64,6 +64,7 @@ h3 {
     background-color: #262626;
     color: white;
     margin-right: 3em;
+    cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -74,6 +75,10 @@ h3 {
 
 .beverages-content {
     border-bottom: 1px solid #ddd;
+    display: none;
+}
+
+.desserts-content {
     display: none;
 }
 
