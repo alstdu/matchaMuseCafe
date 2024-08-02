@@ -21,10 +21,18 @@ main {
     gap: 3em;
     width: 100%;
     border-top: 1px solid #acabab;
+    padding: 2em;
+}
+
+.menu-contents img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    margin: 1em;
 }
 
 .menu-item {
     padding: 10px 0;
+    line-height: 1.5;
 }
 
 .menu-title h2 {
@@ -38,8 +46,8 @@ main {
 .menu-item h3 {
     margin: 0;
     font-size: 1em;
-    letter-spacing: 4px;
-    margin-bottom: 1em;
+    letter-spacing: 2px;
+    margin-bottom: 1.5em;
 }
 
 .menu-item p {
@@ -49,6 +57,7 @@ main {
 .menu-item .price {
     margin-top: 2em;
     color: #333;
+    font-weight: bold;
 }
 h3 {
     font-weight: bold;
