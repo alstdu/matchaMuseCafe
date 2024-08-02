@@ -18,6 +18,12 @@
     border-bottom: 1px solid rgb(58, 58, 58);
     margin-bottom: 2em;
 }
+.letter-spacing {
+    letter-spacing: 5px;
+}
+.all-caps {
+    text-transform: uppercase;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -43,12 +49,10 @@ header nav ul {
 }
 header ul li {
     margin: 1.5em;
-    letter-spacing: 5px;
 }
 .navigation-sidebar ul li {
     margin: 1.5em;
     text-transform: uppercase;
-    letter-spacing: 5px;
     font-size: larger;
     padding-left: 1em;
     border-left: 2px solid hsl(0, 2%, 20%);
@@ -163,22 +167,25 @@ header ul li {
     letter-spacing: 3px;
 }
 .margin-container{
-    margin: 10em;
+    margin: 9em;
+    text-align: center;
 }
 .image-gallery{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 100%;
-    padding: 20px;
+    min-width: 100%;
+    padding: 5px;
     margin-bottom: 8em;
+    margin-top: 1em;
+    gap: 0 1em;
 }
 .image-gallery img {
     aspect-ratio: 1;
     object-fit: cover;
-    max-width: 18em;
+    max-width: 22em;
 }
 footer {
     display: flex;
@@ -193,7 +200,6 @@ footer {
     flex-direction: column;
     text-align: left;
     text-transform: uppercase;
-    letter-spacing: 4px;
     line-height: 3;
 }
 .footer-map {
