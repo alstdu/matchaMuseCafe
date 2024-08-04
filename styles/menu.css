@@ -10,11 +10,6 @@ main {
     margin: 0 10em;
 }
 
-/* .menu {
-    max-width: 800px;
-    margin: 0 auto;
-} */
-
 .menu-contents {
     display: flex;
     justify-content: space-between;
@@ -27,7 +22,6 @@ main {
 .menu-contents img {
     aspect-ratio: 1;
     object-fit: contain;
-    margin: 1em;
 }
 
 .menu-item {
@@ -101,3 +95,33 @@ h3 {
     border: 1px solid #262626;
   }
   
+@media (max-width: 1300px) {
+    main {
+        margin: 0 5em;
+    }
+    .menu-contents img {
+        max-width: 15em;
+    }
+}
+
+@media (max-width: 950px) {
+    main {
+        margin: 0 3em;
+    }
+    .menu-contents img {
+        max-width: 14em;
+    }
+}
+
+@media (max-width: 750px) {
+    main {
+        margin: 0 1em;
+    }
+    .menu-contents{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-contents img {
+        max-width: 20em;
+    }
+}
